@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Bookshelf Data</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="doyers.png" alt="Dodgers Logo"/>
+        </div>    
+        <ul >
+            <li><a href="#" target="_blank">HOME</a></li>
+            <li><a href="#" target="_blank">ABOUT</a></li>
+            <li><a href="#" target="_blank">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div class="booksShelves" id="cssdesign">
+        <input  class="css"class="inputInformation" id ="titleInput" placeholder="Title">
+        <input class="css"class="inputInformation" id="authorInput"placeholder="Author">
+        <input class="css"class="inputInformation" id="languagesInput" placeholder="Languages">
+        <input class="css"class="inputInformation" id="subjectsInput" placeholder="Subjects">
+
+        <div class="css" class="buttons">
+            <!-- <button class="favorites">Favorites</button> -->
+            <button id="search">Search</button>
+            <button id="add">Add a Book</button>
+        </div>
+
+        <section class="commentBox">
+            <textarea class="comments" type="text">Please let us know what you think about your experience.</textarea>
+            <button class="submit">Leave Feedback</button>
+        </section>
+    </div>
+
+    <div id="bookElements">
+
+    </div>
+
+    <script src="/js/book-data.js" type="module"></script>
+    <script src="/index.js" type="module"></script>
+
+</body>
+
+</html>

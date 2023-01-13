@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-color:antiquewhite;
+    font-family:'Times New Roman', Times, serif;
+
+}
+nav{
+    height: 60px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    height: 100%;
+}
+
+img {
+    height: 100%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    margin: 8px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+li{
+text-decoration: underline;
+width: 50%;
+height: 100%;
+border-style: solid;
+background-color:lightblue;
+/* margin: 2px; */
+margin: 5px;
+margin-top: 25px;
+padding: 5px;
+list-style: none;
+
+}
+
+.books:hover {
+    background-color: yellow;
+  }
+
+ .bookShelves{
+    border: solid;
+    background: brown;
+} 
+input{
+    margin-top: 100px;
+    padding: 0
+}
+
+textarea{
+    resize: none;
+}
