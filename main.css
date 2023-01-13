@@ -4,13 +4,15 @@ body{
     font-family:'Times New Roman', Times, serif;
 
 }
-nav{
+.navbar{
+    margin: 0;
     height: 60px;
     display: flex;
     background-color: white;
     justify-content: space-between;
     position: fixed;
     width: 100%;
+ 
 }
 
 .logo{
@@ -67,4 +69,12 @@ input{
 
 textarea{
     resize: none;
+}
+
+.about{
+    margin: 0;
+}
+
+.contact{
+    margin:0;
 }
